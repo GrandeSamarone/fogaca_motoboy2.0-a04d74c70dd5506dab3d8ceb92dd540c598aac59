@@ -1,0 +1,8 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="translucent">
+    <!--- Background; tile is broken on Android 2.2 so just have super wide background that will get clipped  -->
+
+    <item
+        android:drawable="@mipmap/ic_launcher"
+        android:gravity="center"/>
+</layer-list>

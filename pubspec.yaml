@@ -1,0 +1,108 @@
+name: fogaca_app
+description: Fogaça Motoboys
+
+
+publish_to: 'none'
+
+version: 1.0.0+36
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_sticky_header:
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  #sticky_grouped_list: ^1.3.0
+  #grouped_list: ^4.0.0
+  #flutter_local_notifications: ^5.0.0
+  #badges: ^1.1.6
+  syncfusion_flutter_datepicker: ^20.4.52
+  app_tutorial: ^0.3.2
+  flutter_geofire: ^2.0.0
+  flutter_polyline_points: ^1.0.0
+  maps_curved_line: ^1.0.2
+  cupertino_icons: ^1.0.1
+  google_maps_flutter: ^2.1.2
+  firebase_core:
+  firebase_auth: ^4.2.9
+  firebase_remote_config: ^3.0.13
+#  google_sign_in: ^5.0.4
+  geolocator: ^9.0.2
+  geocoding: ^2.0.0
+  location: ^4.3.0
+  cloud_firestore: ^4.4.3
+  fluttertoast: ^8.0.8
+  url_launcher: ^6.0.0
+  http: ^0.13.1
+  provider: ^6.0.5
+  shared_preferences: ^2.0.3
+  flux_validator_dart: ^2.0.0
+  image_picker: ^0.8.2
+  firebase_storage: ^11.0.14
+  font_awesome_flutter: ^10.4.0
+  permission_handler: ^10.2.0
+  short_uuids: ^2.0.0
+  firebase_messaging: ^14.1.0
+  firebase_analytics: ^10.1.4
+  audioplayers: ^3.0.1
+  intl: ^0.17.0
+#  flutter_rating_bar: ^4.0.0
+  firebase_database: ^10.0.14
+  #calcula a area
+  maps_toolkit: ^2.0.0
+  firebase_crashlytics: ^3.0.15
+  wakelock: ^0.6.2
+  flutter_local_notifications: ^8.2.0
+  #paginate_firestore: # latest version
+  flutter_chat_ui: ^1.5.1
+  uuid: ^3.0.5
+  get: ^4.6.1
+  device_info_plus: ^8.1.0
+  sliding_up_panel: ^2.0.0+1
+  sliding_switch: ^1.0.0
+  breathing_collection: ^1.0.0+2
+  #data_connection_checker: ^0.3.4
+  simple_connection_checker: ^0.2.1
+  optimization_battery: ^0.0.5
+  package_info_plus: ^3.0.3
+
+  #animated_icon_button: ^1.0.2
+  #pull_to_refresh: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+     sdk: flutter
+  mobx_codegen:
+  build_runner:
+
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - imagens/
+    - sons/
+    - imagens/maps_styles/mapsdark.json
+    - imagens/maps_styles/mapslight.json
+
+  fonts:
+    - family: Signatra
+      fonts:
+        - asset: fonts/signatra.ttf
+    - family: Brand-Regular
+      fonts:
+        - asset: fonts/bolt-regular.ttf
+    - family: Brand Bold
+      fonts:
+        - asset: fonts/bolt-semibold.ttf
+    - family: MyFlutterApp
+      fonts:
+        - asset: fonts/MyFlutterApp.ttf
+    - family:  BloqueadoSino
+      fonts:
+        - asset: fonts/BloqueadoSino.ttf
