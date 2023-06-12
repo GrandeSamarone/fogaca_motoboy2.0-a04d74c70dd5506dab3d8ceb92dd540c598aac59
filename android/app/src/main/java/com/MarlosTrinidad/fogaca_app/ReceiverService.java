@@ -119,9 +119,9 @@ public class ReceiverService extends Service
     String ACEITO = "1";
     String FINALIZADO = "3";
    // boolean isRelease = BuildConfig.BUILD_TYPE == "release";
-    String PEDIDOS = "Chamadas";
-    String MOTOBOYS = "MotoboysOn";
-    String BASE_URL = "https://fogacaexpress.com/dev";
+    String PEDIDOS = "TestePedidos";
+    String MOTOBOYS = "TesteMotoboysOnline";
+    String BASE_URL = "http://10.0.0.78:8089/dev";
     String BASE_SOCKET = "http://fogacaexpress.com:8089";
 
 
