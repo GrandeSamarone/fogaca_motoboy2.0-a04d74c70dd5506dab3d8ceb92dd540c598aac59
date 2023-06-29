@@ -11,9 +11,9 @@ class Api{
   final ILocalStorage iLocalStorage = SharedPreference();
   var host = await iLocalStorage.readData("HOST");
   if(host==0){
-   return "http://10.0.0.78:8089/dev";
+   return "http://172.30.192.1:8089/dev";
   }else{
-   return "http://10.0.0.78:8089/dev";
+   return "http://172.30.192.1:8089/dev";
   }
  }
 }
